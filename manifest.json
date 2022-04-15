@@ -1,0 +1,16 @@
+{
+    "name": "Chrome Extension Template",
+    "description": "Basic template of a Chrome Extension Project",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "tabs",
+        "scripting"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ]
+  }
